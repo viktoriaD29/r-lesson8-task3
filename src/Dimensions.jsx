@@ -32,7 +32,7 @@ class Dimensions extends React.Component {
   render() {
     return (
       <div className="dimensions">
-        {`${this.state.width}px - ${this.state.height}px`}
+        {`${this.state.height}px - ${this.state.width}px`}
       </div>
     );
   }
